@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        .line {
+            width: 110%;
+            background-color: brown;
+        }
+    }
+    .details {
+        color: black;
+    }
+}
